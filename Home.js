@@ -44,14 +44,14 @@ function Home() {
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
-          
-            <Product
+
+          <Product
             id="09898793"
             title="Apple Watch Series 4 (GPS + Cellular, 40mm, Space Gray Aluminum, Black Sport Band)"
             price={598.99}
             rating={5}
             image="https://www.bhphotovideo.com/images/images2500x2500/apple_mtug2ll_a_watch_series_4_gps_1434890.jpg"
-            />
+          />
         </div>
 
         <div className="home__row">

@@ -14,7 +14,7 @@ function Login() {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
-        history.push("/"); 
+        history.push("/");
       })
       .catch((error) => alert(error.message));
   };
@@ -62,7 +62,7 @@ function Login() {
 
           <button
             type="submit"
-            oncClick={signIn}
+            onClick={signIn}
             className="login__signInButton"
           >
             Sign In
